@@ -1,0 +1,48 @@
+export const project = [
+  {
+    id: 1,
+    title: "Portfolio Website",
+    description: "Personal portfolio built with React and Tailwind CSS.",
+    image: "/images/portfolio.png",
+    github: "https://github.com/Rylie86/portfolio",
+    live: "https://portfolio.vercel.app",
+    tech: ["React", "Tailwind CSS"],
+  },
+
+  {
+    id: 2,
+    title: "Lemon Drink Shop",
+    description: "E-commerce website for a drink shop.",
+    image: "/images/lemon.png",
+    github: "https://github.com/Rylie86/LemonDrinkShop",
+    live: "https://lemon-drink-shop.vercel.app",
+    tech: ["React", "Tailwind CSS"],
+  },
+   {
+  id: 3,
+  title: "Calculator App",
+  description: "A simple calculator built with React. Supports basic arithmetic operations with a clean and responsive UI.",
+  image: "/images/calculator.png",
+  github: "https://github.com/Rylie86/Calculator.git",
+  live: "https://calculator-4d3i.vercel.app",
+  tech: ["React", "Tailwind CSS"],
+},
+{
+  id: 3,
+  title: "ToDo List App",
+  description: "A task management application built with React. Users can add, delete, and manage daily tasks with a simple responsive interface.",
+  image: "/images/To_Do_list.png",
+  github: "https://github.com/Rylie86/Todo_list.git",
+  live: "https://planner-nine-pi.vercel.app",
+  tech: ["React", "Tailwind CSS"],
+},
+{
+  id: 4,
+  title: "ToDo List App",
+  description: "A task management application built with React. Users can add, delete, and manage daily tasks with a simple responsive interface.",
+  image: "/images/To_Do_list.png",
+  github: "https://github.com/Rylie86/Todo_list.git",
+  live: "https://planner-nine-pi.vercel.app",
+  tech: ["React", "Tailwind CSS"],
+},
+];
