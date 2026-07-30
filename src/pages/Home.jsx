@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
-import profileImage from "../assets/profile.jpg";
+import profileImage from "../assets/Profile.jpg";
 import AboutImage from "../assets/Aboutme.jfif";
 
 const Home = () => {
