@@ -38,11 +38,11 @@ export const project = [
 },
 {
   id: 4,
-  title: "ToDo List App",
-  description: "A task management application built with React. Users can add, delete, and manage daily tasks with a simple responsive interface.",
-  image: "/images/To_Do_list.png",
-  github: "https://github.com/Rylie86/Todo_list.git",
-  live: "https://planner-nine-pi.vercel.app",
+  title: "Skincare Website",
+  description: "A modern skincare e-commerce website built with React and Tailwind CSS. Features include product categories, search, shopping cart, wishlist, responsive design, and a clean user-friendly interface.",
+  image: "/images/SkincareWebsite.png",
+  github: "https://github.com/Rylie86/Skincare_Website.git",
+  live: "https://skincare-website-orpin.vercel.app",
   tech: ["React", "Tailwind CSS"],
 },
 ];

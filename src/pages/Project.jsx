@@ -9,7 +9,7 @@ const Project = () => {
         <h1 className='text-4xl font-bold uppercase text-white'>Projects</h1>
       </div>
 
-      {/* Project Grid */}
+      
       <div className='w-[90%] mx-auto py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
         {project.map((item) => (
           <div
@@ -19,8 +19,8 @@ const Project = () => {
               rounded-xl 
               overflow-hidden 
               shadow-lg 
-              hover:scale-105 
-              duration-300 
+              
+             
               flex 
               flex-col
               border-2 
@@ -28,21 +28,19 @@ const Project = () => {
               
             '
           >
-            {/* Image */}
+          
             <img
               src={item.image}
               alt={item.title}
               className='w-full h-48 object-cover'
             />
 
-            {/* Content */}
+        
             <div className='p-5 flex flex-col flex-1'>
               <h2 className='text-xl font-bold text-blue-900'>{item.title}</h2>
 
-              <p className='text-gray-600 mt-2'>{item.description}</p>
-
-              {/* Tech */}
-              <div className='flex flex-wrap gap-2 mt-3'>
+              <p className='text-gray-600 mt-2 line-clamp-5 h-30'>{item.description}</p>
+               <div className='flex flex-wrap gap-2 mt-3 '>
                 {item.tech.map((skill, index) => (
                   <span
                     key={index}
@@ -58,9 +56,7 @@ const Project = () => {
                     {skill}
                   </span>
                 ))}
-              </div>
-
-              {/* Buttons */}
+              </div> 
               <div className='flex gap-3 mt-auto pt-5'>
                 <a
                   href={item.github}
