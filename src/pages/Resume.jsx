@@ -4,13 +4,13 @@ const Resume = () => {
   return (
     <div className="min-h-screen bg-slate-900 py-10 flex flex-col items-center">
 
-      {/* Title */}
+    
       <h1 className="text-4xl md:text-5xl font-bold uppercase text-white mb-10">
         Resume
       </h1>
 
 
-      {/* Resume Card */}
+      
       <div className="
         w-[90%]
         md:w-[60%]
@@ -38,7 +38,7 @@ const Resume = () => {
         <div className="flex flex-col md:flex-row justify-center gap-5">
 
 
-          {/* CV Download */}
+          
           <a
             href="/LongSokuntheary_CV.pdf"
             download
